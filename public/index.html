@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <base href="/" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+   
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <link href="./argon-dashboard-master/assets/img/brand/favicon.png" rel="icon" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  
+    <link href="./argon-dashboard-master/assets/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
+    <link href="./argon-dashboard-master/assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    
+    <link href="./argon-dashboard-master/assets/css/argon-dashboard.css?v=1.1.2" rel="stylesheet" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/themes/5.0.1/default/default-main.css"/>
+    <title>IPS-TIME</title>
+    <style>
+      
+
+
+::-webkit-scrollbar {
+  width: 4px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.gradient-custom-2 {
+/* fallback for old browsers */
+
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right,#7e5ce1,#9e80f0,#dfd5fc );
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+background: linear-gradient(340deg, #3e2898 0%, #9e85cd 100%)
+}
+}
+    </style>
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+ 
+    <script src="./argon-dashboard-master/assets/js/plugins/jquery/dist/jquery.min.js"></script>
+  <script src="./argon-dashboard-master/assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!--   Optional JS   -->
+  <script src="./argon-dashboard-master/assets/js/plugins/chart.js/dist/Chart.min.js"></script>
+  <script src="./argon-dashboard-master/assets/js/plugins/chart.js/dist/Chart.extension.js"></script>
+  <!--   Argon JS   -->
+  <script src="./argon-dashboard-master/assets/js/argon-dashboard.min.js?v=1.1.2"></script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "argon-dashboard-free"
+      });
+  </script>
+  
+
+  </body>
+</html>
